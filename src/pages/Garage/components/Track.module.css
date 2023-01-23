@@ -1,0 +1,44 @@
+.track__item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px dashed beige;
+}
+.race {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 95%;
+}
+.car {
+    max-width: 80px;
+    width: 100%;
+    position: relative;
+}
+.roll {
+    fill: #607d8b;
+}
+
+.track__btn {
+    background: yellow;
+    font-size: 1.2rem;
+    color: brown;
+    cursor: pointer;
+}
+.track__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 240px;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.car__start, .car__end {
+    background: transparent;
+    color: #fff;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.car__start {border: 4px double blue;}
+.car__end {border: 4px double red;}

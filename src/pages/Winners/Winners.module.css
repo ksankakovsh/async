@@ -1,0 +1,21 @@
+.white {color: beige;}
+.container {
+    width: 96%;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+.header__btn {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    background-color: greenyellow;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}

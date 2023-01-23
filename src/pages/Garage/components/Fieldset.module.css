@@ -1,0 +1,39 @@
+/* form*/
+.fieldset {
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 660px;
+    width: 100%;
+    margin: 15px auto;
+}
+.input__text {
+    background: transparent;
+    border: 1px solid yellow;
+    max-width: 300px;
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    padding: 5px;
+    color: antiquewhite;
+}
+.form__btn {
+    max-width: 200px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background: #ddf11c;
+    border-bottom: 5px solid #20960e;
+    cursor: pointer;
+    box-sizing: content-box;
+}
+.form__btn:hover, .form__btn:active {
+    background: #99a812;
+    border-bottom: 1px;
+}
+.form__color {
+    width: 90px;
+    height: 35px;
+}
