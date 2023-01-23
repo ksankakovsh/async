@@ -5,7 +5,7 @@ export function Winners() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <a href="/garage" className={styles.header__btn}>
+        <a href="/" className={styles.header__btn}>
           to garage
         </a>
         <a href="/winners" className={styles.header__btn}>

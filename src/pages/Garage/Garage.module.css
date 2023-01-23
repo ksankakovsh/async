@@ -22,4 +22,11 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+.text {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: antiquewhite;
+    padding: 2rem;
+}

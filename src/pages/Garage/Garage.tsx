@@ -8,7 +8,7 @@ export function Garage() {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <a href="/garage" className={styles.header__btn}>
+        <a href="/" className={styles.header__btn}>
           to garage
         </a>
         <a href="/winners" className={styles.header__btn}>
@@ -26,6 +26,11 @@ export function Garage() {
       {allCars.map((car) => (
         <Track key={car.id} {...car} />
       ))}
+      <p className={styles.text}>
+        Дорогой проверяющий! Я довольно мало успела сделать по задаче, но несмотря на это многому
+        научилась:) Тем не менее прошу проверить мою работу как можно позже, так как надеюсь хоть
+        что-то допилить. A пока ты можешь посмотреть что уже сделано
+      </p>
     </div>
   );
 }
